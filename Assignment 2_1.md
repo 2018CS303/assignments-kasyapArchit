@@ -33,7 +33,7 @@ Now we need to set up our GitHub repo to make a request to Jenkins webhook so th
 ### Configuring Email
 We need to first add the details of the SMTP credentials so that Jenkins can send the mail.
 
-- Go to `Manage Jenkins > Configure Systems` and scroll down to the `Extended E-mail Notification` section.
+- Go to `Manage Jenkins > Configure Systems` and scroll down to the `E-mail Notification` section.
 - Add the SMTP server details.
 - Click on the `Advanced` button to configure the mail account used to send the mails.
 - Select `Use SMTP Authentication`.
